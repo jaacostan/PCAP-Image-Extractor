@@ -1,4 +1,4 @@
-This tool can be used to extract images from a PCAP file, where boundary marker is set.
+This tool can be used to extract images from a PCAP file, where boundary marker is set. This tool will identify the boundary marker using the user input and combine the raw data to extract the images.
 
 A boundary marker is a delimiter used in multipart data transmissions, particularly in HTTP responses, to separate individual sections within a stream. This technique is commonly used in MJPEG video feeds, live image transmissions, and multi-part file uploads where multiple objects need to be sent over a single HTTP connection. 
 The boundary marker is explicitly defined in the HTTP headers and serves as a way to identify the start and end of each transmitted object within the stream.
